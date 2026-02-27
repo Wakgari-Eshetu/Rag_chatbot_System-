@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.14.0'
       - name: Upgrade pip
-        run: pyhton -m pip install --upgarde pip
+        run: python -m pip install --upgrade pip
       
       - name: Install dependencies
         run: |
